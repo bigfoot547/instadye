@@ -17,7 +17,7 @@ local function add_rightclick(color)
 	minetest.override_item("dye:"..color, {
 		on_place = function(itemstack, placer, pointed_thing)
 			local nodename = minetest.get_node(pointed_thing.under).name
-			minetest.chat_send_all(minetest.get_node(pointed_thing.under).name)
+			--minetest.chat_send_all(minetest.get_node(pointed_thing.under).name)
 			if minetest.registered_nodes[nodename].groups.wool and minetest.registered_nodes[nodename].groups.wool > 0 then
 				minetest.set_node(pointed_thing.under, {name = "wool:"..color})
 			end
