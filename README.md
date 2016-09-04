@@ -9,4 +9,5 @@ Code: LGPL v2.1+
 ## Mod Dependencie
   * default
   * wool
+  * dye
 
