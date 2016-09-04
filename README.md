@@ -5,3 +5,8 @@ This mod is intended for use with large modpacks or just everyday gaming.
 
 ## License
 Code: LGPL v2.1+
+
+## Mod Dependencie
+  * default
+  * wool
+
